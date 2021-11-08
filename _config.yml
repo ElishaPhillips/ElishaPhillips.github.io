@@ -5,12 +5,15 @@ baseurl:
 
 collections:
   pages:
+    htmlwidgets: true
     output: true
     permalink: /:name
   posts:
+    htmlwidgets: true
     output: true
     permalink: /blog/:slug
   projects:
+    htmlwidgets: true
     output: true
     permalink: /project/:slug
 
