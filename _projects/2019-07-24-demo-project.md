@@ -104,6 +104,8 @@ Videos are an awesome way to show off your work in a more engaging and personal 
 	full_width = true
 %}
 
+{% include /project_data/quantum-dot-charge-stability/D2-3d.a.html}
+
 ### Pretty cool, huh?
 
 We've packed this theme with powerful features to show off your work.
