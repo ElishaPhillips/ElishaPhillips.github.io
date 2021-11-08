@@ -20,6 +20,15 @@ gallery_images:
   {% endfor %}
 {% endif %}
 
+<head>
+  <style> iframe { border: none } </style>
+</head>
+<body>
+  <iframe src="https://github.com/ElishaPhillips/Quantum_Dot_Charge_Stability/blob/ce1bbe2a90d77dfc2425dc79fbfec5e6a0ff13fd/D2-3d.a.html"
+          width="150%" height="150%" allowfullscreen sandbox>
+    
+  </iframe>
+</body>
 
 #### Reference:
 [Qubits made by advanced semiconductor manufacturing](https://arxiv.org/abs/2101.12650#)
