@@ -15,7 +15,7 @@ gallery_images:
 </head>
 <body>
   <iframe src="https://github.com/ElishaPhillips/Quantum_Dot_Charge_Stability/blob/ce1bbe2a90d77dfc2425dc79fbfec5e6a0ff13fd/D2-3d.a.html"
-          width="100%" height="500" allowfullscreen sandbox>
+          width="100%" height="100%" allowfullscreen sandbox>
     <p>
       <a href="/en-US/docs/Glossary">
          Fallback link for browsers that don't support iframes
