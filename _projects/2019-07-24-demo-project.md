@@ -10,7 +10,19 @@ gallery_images:
   - demo.jpg
   - demo.jpg
 ---
-
+<head>
+  <style> iframe { border: none } </style>
+</head>
+<body>
+  <iframe src="https://github.com/ElishaPhillips/Quantum_Dot_Charge_Stability/blob/ce1bbe2a90d77dfc2425dc79fbfec5e6a0ff13fd/D2-3d.a.html"
+          width="100%" height="500" allowfullscreen sandbox>
+    <p>
+      <a href="/en-US/docs/Glossary">
+         Fallback link for browsers that don't support iframes
+      </a>
+    </p>
+  </iframe>
+</body>
 {% if page.htmlwidgets %}
 {% for html_dep in site.static_files %}
   {% if html_dep.path contains 'htmlwidgets_deps/' %}
