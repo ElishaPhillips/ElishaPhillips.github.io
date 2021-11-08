@@ -3,7 +3,7 @@ title: Quantum Dots
 subtitle: Analyzing Charge Stability.
 date: 2019-07-24 00:00:00
 description: hello
-featured_image: "/project_data/quantum-dot-charge-stability/D2_3D_Still.PNG"
+featured_image: D2_3D_Still.PNG
 accent_color: '#4C60E6'
 gallery_images:
   - demo.jpg
