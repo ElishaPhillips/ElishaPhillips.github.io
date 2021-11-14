@@ -28,7 +28,12 @@
         background: var(--accent);
       }
     }
-
+    
+   .is-fullwidth {
+      width: 100%;
+      height: auto;
+    }
+    
     .gallery--carousel .owl-dot.active::after {
       background: var(--accent);
     }
