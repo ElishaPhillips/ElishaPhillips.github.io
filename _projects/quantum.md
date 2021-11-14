@@ -17,7 +17,8 @@ The practicality of these systems relies on an effective method of reading and m
 
 # Overview
 
-<iframe class="embed-responsive-item" src="/images/projects/Quantum/Figures/D2-3d.a.html" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="/images/projects/Quantum/Figures/D2-3d.a.html" allowfullscreen></iframe>
 </div>
 
 
