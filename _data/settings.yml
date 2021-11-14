@@ -8,7 +8,7 @@ header_settings: '/images/icons/L2.svg'
 
 menu_settings: 
   menu_items:
-    - title: 'Work'
+    - title: 'Projects'
       url: '/'
 
 
