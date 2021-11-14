@@ -1,8 +1,8 @@
 basic_settings:
   site_title: Elisha Phillips
-  favicon_image: '/images//icons/L2.svg'
+  favicon_image: '/images/icons/L2.svg'
 
-header_settings: '/images//icons/L2.svg'
+header_settings: '/images/icons/L2.svg'
   logo_image: 
   logo_width: 100
 
@@ -13,7 +13,7 @@ menu_settings:
 
 
 footer_settings:
-  logo_image: '/images//icons/L2.svg'
+  logo_image: '/images/icons/L2.svg'
   logo_width: 100
   tagline: A beautiful, minimal portfolio Jekyll theme
 
