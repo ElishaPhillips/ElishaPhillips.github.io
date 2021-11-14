@@ -43,7 +43,7 @@ I used QTT to import the downloaded dataset and assigned the four charge stabili
 {% include post-components/gallery.html
 	columns = 1
 	full_width = true
-	images = "/images/projects/Quantum/Figures/D1.png","/images/projects/Quantum/Figures/D2.png","/images/projects/Quantum/Figures/D3.png","/images/projects/Quantum/Figures/D4.png","/images/projects/Quantum/Figures/D56.png"
+	images = "/images/projects/Quantum/Figures/D1.png,/images/projects/Quantum/Figures/D2.png,/images/projects/Quantum/Figures/D3.png,/images/projects/Quantum/Figures/D4.png,/images/projects/Quantum/Figures/D56.png"
 %}
 	
 I then used plotly to recreate Figure 2d in an interactive 3d surface graph, as seen in the above attachment. 
