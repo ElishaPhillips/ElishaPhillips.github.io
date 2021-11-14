@@ -59,23 +59,6 @@ I then used plotly to recreate Figure 2d in an interactive 3d surface graph, as 
 
 ![](/images/projects/Quantum/AdobeStock_332906314.png)
 
-# Methods 
-
-![](/images/projects/Quantum/AdobeStock_332906314.png)
-
-# Results 
-
-![](/images/projects/Quantum/AdobeStock_378614280.png)
-
-# Discussion
-
-![](/images/projects/Quantum/AdobeStock_467591331.png)
-
-Bulleted list
-
-* Simple bulleted lists
-* Like this one
-* Are cool
 	
 <iframe title="D2" aria-label="Interactive line chart" id="D23D" src="/images/projects/Quantum/figures/eval_d2" scrolling="no" frameborder="0" style="width: 0; min-width: 200% !important; border: none;" height=1024></iframe>
 
@@ -101,6 +84,19 @@ Bulleted list
 
 <script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>	
 
+# Results 
+
+![](/images/projects/Quantum/AdobeStock_378614280.png)
+
+# Discussion
+
+![](/images/projects/Quantum/AdobeStock_467591331.png)
+
+Bulleted list
+
+* Simple bulleted lists
+* Like this one
+* Are cool
 
 And:
 
