@@ -104,7 +104,7 @@ Inspired by the Galleries feature from WordPress, we've made it easy to create g
 {% include post-components/gallery.html
 	columns = 2
 	full_width = true
-	images = "/images/projects/Quantum/Figures/D2-3d.a.html"
+	images = ""
 	"
 %}
 ```
@@ -124,7 +124,7 @@ A nice little feature: the carousel only advances when it is in view, so your vi
 {% include post-components/gallery.html
 	columns = 1
 	full_width = true
-	images = "/images/projects/Quantum/Figures/D2-3d.a.html"
+	images = ""
 	"
 %}
 
@@ -133,7 +133,7 @@ A nice little feature: the carousel only advances when it is in view, so your vi
 Videos are an awesome way to show off your work in a more engaging and personal way, and we’ve made sure they work great on our themes. Just paste an embed code from YouTube or Vimeo, and the theme makes sure it displays perfectly:
 
 {% include post-components/video.html
-	src="/images/projects/Quantum/Figures/D2-3d.a.html
+	src="'
 	full_width = true
 %}
 
