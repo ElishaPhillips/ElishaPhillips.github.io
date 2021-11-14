@@ -3,17 +3,19 @@ title: 'Quantum Dots'
 subtitle: 'Data Analysis and Visualization'
 date: 2021-11-14 00:00:00
 description: Extracting critical features from published charge stability datasets measured from two Si Quantum Dots 
-featured_image:/Quantum/AdobeStock_320419547.png
+featured_image: /Quantum/AdobeStock_320419547.png
 ---
 
 ![](/Quantum/AdobeStock_320419547.png)
 
 Testing Testing Testing ....
 AdobeStock_467591331.png
+
 # Abstract
 # Methods 
 # Results 
 # Discussion
+
 ![](AdobeStock_332906314.png)
 ![](AdobeStock_332906314.png)
 ![](AdobeStock_378614280.png)
