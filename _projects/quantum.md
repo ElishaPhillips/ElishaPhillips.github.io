@@ -54,6 +54,8 @@ I used QTT to import the downloaded dataset and assigned the four charge stabili
 %}
 	
 I then used plotly to recreate Figure 2d in an interactive 3d surface graph, as seen in the above attachment. 
+
+
 _All graphs used in this article can be downloaded from ['/Quantum/figures']('https://github.com/ElishaPhillips/ElishaPhillips.github.io/tree/main/images/projects/Quantum/figures')_
 
 # Discussion
