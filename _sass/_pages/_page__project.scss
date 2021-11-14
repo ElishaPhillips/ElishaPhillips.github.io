@@ -4,6 +4,9 @@
 
 // - - - - - - - - - - - - - - - - - -
 
+.page-project {
+  @extend .page-post;
+
   .post__subtitle {
     margin-bottom: 48px;
     max-width: 556px;
@@ -25,7 +28,7 @@
         background: var(--accent);
       }
     }
-    
+
     .gallery--carousel .owl-dot.active::after {
       background: var(--accent);
     }
