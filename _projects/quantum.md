@@ -21,7 +21,7 @@ With this project I worked to build a better understanding of the quantum double
 # Overview
 
 
-<iframe title="D2" aria-label="Interactive line chart" id="D23D" src="/images/projects/Quantum/Figures/D2-3d.a.html" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height=528></iframe>
+<iframe title="D2" aria-label="Interactive line chart" id="D23D" src="https://github.com/ElishaPhillips/ElishaPhillips.github.io/blob/97ee743d16152bc771d3e44aa9e22365c32c6bcc/images/projects/Quantum/figures/D2-3d.a.html" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height=528></iframe>
 
 <script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
 
@@ -44,7 +44,12 @@ I used QTT to import the downloaded dataset and assigned the four charge stabili
 {% include post-components/gallery.html
 	columns = 1
 	full_width = true
-	images = "/images/projects/Quantum/Figures/D1.png,/images/projects/Quantum/Figures/D2.png,/images/projects/Quantum/Figures/D3.png,/images/projects/Quantum/Figures/D4.png,/images/projects/Quantum/Figures/D56.png
+	images = 
+"https://github.com/ElishaPhillips/ElishaPhillips.github.io/blob/74bdeabb62b19346d12ced7e0e554cc93120c869/images/projects/Quantum/figures/D1.png,
+https://github.com/ElishaPhillips/ElishaPhillips.github.io/blob/74bdeabb62b19346d12ced7e0e554cc93120c869/images/projects/Quantum/figures/D2.png,
+https://github.com/ElishaPhillips/ElishaPhillips.github.io/blob/74bdeabb62b19346d12ced7e0e554cc93120c869/images/projects/Quantum/figures/D3.png,
+https://github.com/ElishaPhillips/ElishaPhillips.github.io/blob/74bdeabb62b19346d12ced7e0e554cc93120c869/images/projects/Quantum/figures/D4.png,
+https://github.com/ElishaPhillips/ElishaPhillips.github.io/blob/74bdeabb62b19346d12ced7e0e554cc93120c869/images/projects/Quantum/figures/D56.png
 "
 %}
 	
@@ -72,12 +77,9 @@ Bulleted list
 * Like this one
 * Are cool
 	
-https://github.com/ElishaPhillips/ElishaPhillips.github.io/blob/74bdeabb62b19346d12ced7e0e554cc93120c869/images/projects/Quantum/figures/D1.png
+
 https://github.com/ElishaPhillips/ElishaPhillips.github.io/blob/74bdeabb62b19346d12ced7e0e554cc93120c869/images/projects/Quantum/figures/D2-3d.a.html
-https://github.com/ElishaPhillips/ElishaPhillips.github.io/blob/74bdeabb62b19346d12ced7e0e554cc93120c869/images/projects/Quantum/figures/D2.png
-https://github.com/ElishaPhillips/ElishaPhillips.github.io/blob/74bdeabb62b19346d12ced7e0e554cc93120c869/images/projects/Quantum/figures/D3.png
-https://github.com/ElishaPhillips/ElishaPhillips.github.io/blob/74bdeabb62b19346d12ced7e0e554cc93120c869/images/projects/Quantum/figures/D4.png
-https://github.com/ElishaPhillips/ElishaPhillips.github.io/blob/74bdeabb62b19346d12ced7e0e554cc93120c869/images/projects/Quantum/figures/D56.png
+
 https://github.com/ElishaPhillips/ElishaPhillips.github.io/blob/74bdeabb62b19346d12ced7e0e554cc93120c869/images/projects/Quantum/figures/eval_d2_critical.html
 https://github.com/ElishaPhillips/ElishaPhillips.github.io/blob/74bdeabb62b19346d12ced7e0e554cc93120c869/images/projects/Quantum/figures/eval_d2_filtered.html
 https://github.com/ElishaPhillips/ElishaPhillips.github.io/blob/74bdeabb62b19346d12ced7e0e554cc93120c869/images/projects/Quantum/figures/eval_d4.html
