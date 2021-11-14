@@ -8,8 +8,8 @@ featured_image: /images/projects/Quantum/AdobeStock_320419547.png
 
 ![](/images/projects/Quantum/AdobeStock_320419547.png)
 
-Testing Testing Testing ....
-AdobeStock_467591331.png
+Testing Testing Testing
+
 
 # Abstract
 # Methods 
@@ -19,6 +19,7 @@ AdobeStock_467591331.png
 ![](/images/projects/Quantum/AdobeStock_332906314.png)
 ![](/images/projects/Quantum/AdobeStock_332906314.png)
 ![](/images/projects/Quantum/AdobeStock_378614280.png)
+![](/images/projects/Quantum/AdobeStock_467591331.png)
 
 Bulleted list
 
