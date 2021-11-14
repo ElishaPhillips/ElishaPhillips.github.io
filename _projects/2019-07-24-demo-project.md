@@ -1,25 +1,15 @@
 ---
-title: Mobile app
-subtitle: High-fidelity mobile app designs for a super awesome social media company.
-date: 2019-07-24 00:00:00
-description: This is a demo post that shows what you can do inside portfolio and blog posts. We’ve included everything you need to create engaging posts and case studies to show off your work in a beautiful way.
-featured_image: demo.jpg
-accent_color: '#4C60E6'
-gallery_images:
-  - demo.jpg
-  - demo.jpg
-  - demo.jpg
+title: 'Quantum Dots'
+subtitle: 'Data Analysis and Visualization'
+date: 2021-11-14 00:00:00
+description: Extracting critical features from published charge stability datasets measured from two Si Quantum Dots 
+featured_image: '/images/Quantum/AdobeStock_320419547.jpeg'
 ---
 
-This page is a demo that shows everything you can do inside portfolio and blog posts.
+![](/images/Quantum/AdobeStock_320419547.jpeg)
 
-We've included everything you need to create engaging posts about your work, and show off your case studies in a beautiful way.
 
-![](/images/demo.jpg)
-
-**Obviously,** we’ve styled up *all the basic* text formatting options [available in markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-
-You can create lists:
+Bulleted list
 
 * Simple bulleted lists
 * Like this one
@@ -36,6 +26,7 @@ You can also add blockquotes, which are shown at a larger width to help break up
 > “Simple can be harder than complex: You have to work hard to get your thinking clean to make it simple. But it’s worth it in the end because once you get there, you can move mountains.”
 
 The theme also supports markdown tables:
+
 
 | Item                 | Author        | Supports tables? | Price |
 |----------------------|---------------|------------------|-------|
