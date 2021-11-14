@@ -71,6 +71,20 @@ Bulleted list
 * Simple bulleted lists
 * Like this one
 * Are cool
+	
+https://github.com/ElishaPhillips/ElishaPhillips.github.io/blob/74bdeabb62b19346d12ced7e0e554cc93120c869/images/projects/Quantum/figures/D1.png
+https://github.com/ElishaPhillips/ElishaPhillips.github.io/blob/74bdeabb62b19346d12ced7e0e554cc93120c869/images/projects/Quantum/figures/D2-3d.a.html
+https://github.com/ElishaPhillips/ElishaPhillips.github.io/blob/74bdeabb62b19346d12ced7e0e554cc93120c869/images/projects/Quantum/figures/D2.png
+https://github.com/ElishaPhillips/ElishaPhillips.github.io/blob/74bdeabb62b19346d12ced7e0e554cc93120c869/images/projects/Quantum/figures/D3.png
+https://github.com/ElishaPhillips/ElishaPhillips.github.io/blob/74bdeabb62b19346d12ced7e0e554cc93120c869/images/projects/Quantum/figures/D4.png
+https://github.com/ElishaPhillips/ElishaPhillips.github.io/blob/74bdeabb62b19346d12ced7e0e554cc93120c869/images/projects/Quantum/figures/D56.png
+https://github.com/ElishaPhillips/ElishaPhillips.github.io/blob/74bdeabb62b19346d12ced7e0e554cc93120c869/images/projects/Quantum/figures/eval_d2_critical.html
+https://github.com/ElishaPhillips/ElishaPhillips.github.io/blob/74bdeabb62b19346d12ced7e0e554cc93120c869/images/projects/Quantum/figures/eval_d2_filtered.html
+https://github.com/ElishaPhillips/ElishaPhillips.github.io/blob/74bdeabb62b19346d12ced7e0e554cc93120c869/images/projects/Quantum/figures/eval_d4.html
+https://github.com/ElishaPhillips/ElishaPhillips.github.io/blob/74bdeabb62b19346d12ced7e0e554cc93120c869/images/projects/Quantum/figures/evec_d2.html
+https://github.com/ElishaPhillips/ElishaPhillips.github.io/blob/74bdeabb62b19346d12ced7e0e554cc93120c869/images/projects/Quantum/figures/evec_d4.html
+https://github.com/ElishaPhillips/ElishaPhillips.github.io/blob/74bdeabb62b19346d12ced7e0e554cc93120c869/images/projects/Quantum/figures/figev.html
+
 
 And:
 
