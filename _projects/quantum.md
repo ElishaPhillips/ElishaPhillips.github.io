@@ -16,9 +16,9 @@ AdobeStock_467591331.png
 # Results 
 # Discussion
 
-![](AdobeStock_332906314.png)
-![](AdobeStock_332906314.png)
-![](AdobeStock_378614280.png)
+![](/images/projects/Quantum/AdobeStock_332906314.png)
+![](/images/projects/Quantum/AdobeStock_332906314.png)
+![](/images/projects/Quantum/AdobeStock_378614280.png)
 
 Bulleted list
 
