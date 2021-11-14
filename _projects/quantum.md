@@ -5,9 +5,7 @@ date: 2021-11-14 00:00:00
 description: Extracting critical features from published charge stability datasets measured from two Si Quantum Dots.
 featured_image: AdobeStock_320419547.png
 gallery_images:
-  - demo.jpg
-  - demo.jpg
-  - demo.jpg
+  - AdobeStock_320419547.png
 ---
 
 
