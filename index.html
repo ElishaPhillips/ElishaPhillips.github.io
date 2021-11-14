@@ -13,19 +13,12 @@ featured_image: /images/projects/Quantum/AdobeStock_320419547.png
 	<img src="{{ site.data.settings.hero_settings.background_image | relative_url }}" class="hero__background" draggable="false">
 	{% endif %}
 
-	<section class="hero">
-		<div class="wrap grid">
-			<div class="title">
-				<p class="subtitle">{{ page.overtitle }}</p>
-				<h1>{{ page.title }}</h1>
-			</div>
+	{% include post-components/gallery.html
+	columns = 1
+	full_width = true
+	images = "/images/projects/AdobeStock_320419547.png"
+        %}
 
-			<p class="intro subtitle--light">
-				{{ page.description }}
-				<a href="#" class="hero__cta button--fill contact-trigger js-contact">Get In Touch</a>
-			</p>
-		</div>
-	</section>
 	
 	<section class="listing">
 		<div class="wrap">
@@ -58,7 +51,21 @@ featured_image: /images/projects/Quantum/AdobeStock_320419547.png
 	</section>
 
 	{% include section__about.html %}
+	
+	<section class="hero">
+		<div class="wrap grid">
+			<div class="title">
+				<p class="subtitle">{{ page.overtitle }}</p>
+				<h1>{{ page.title }}</h1>
+			</div>
 
+			<p class="intro subtitle--light">
+				{{ page.description }}
+				<a href="#" class="hero__cta button--fill contact-trigger js-contact">Get In Touch</a>
+			</p>
+		</div>
+	</section>
+	
 	<section class="recent-posts">
 		<div class="wrap grid">
 			<header class="recent-posts__header">
