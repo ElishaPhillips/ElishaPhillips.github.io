@@ -21,7 +21,7 @@ With this project I worked to build a better understanding of the quantum double
 # Overview
 
 
-<iframe title="D2" aria-label="Interactive line chart" id="D23D" src="/images/projects/Quantum/figures/D2-3d.a.html" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height=528></iframe>
+<iframe title="D2" aria-label="Interactive line chart" id="D23D" src="/images/projects/Quantum/figures/D2-3d.a.html" scrolling="no" frameborder="0" style="width: 0; min-width: 200% !important; border: none;" height=528></iframe>
 
 <script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
 
@@ -42,7 +42,7 @@ I used QTT to import the downloaded dataset and assigned the four charge stabili
 
 		
 {% include post-components/gallery.html
-	columns = 1
+	columns = 2
 	full_width = true
 	images = 
 "/images/projects/Quantum/figures/D1.png,
@@ -78,14 +78,28 @@ Bulleted list
 * Are cool
 	
 
-https://github.com/ElishaPhillips/ElishaPhillips.github.io/blob/74bdeabb62b19346d12ced7e0e554cc93120c869/images/projects/Quantum/figures/D2-3d.a.html
 
-https://github.com/ElishaPhillips/ElishaPhillips.github.io/blob/74bdeabb62b19346d12ced7e0e554cc93120c869/images/projects/Quantum/figures/eval_d2_critical.html
-https://github.com/ElishaPhillips/ElishaPhillips.github.io/blob/74bdeabb62b19346d12ced7e0e554cc93120c869/images/projects/Quantum/figures/eval_d2_filtered.html
-https://github.com/ElishaPhillips/ElishaPhillips.github.io/blob/74bdeabb62b19346d12ced7e0e554cc93120c869/images/projects/Quantum/figures/eval_d4.html
-https://github.com/ElishaPhillips/ElishaPhillips.github.io/blob/74bdeabb62b19346d12ced7e0e554cc93120c869/images/projects/Quantum/figures/evec_d2.html
-https://github.com/ElishaPhillips/ElishaPhillips.github.io/blob/74bdeabb62b19346d12ced7e0e554cc93120c869/images/projects/Quantum/figures/evec_d4.html
-https://github.com/ElishaPhillips/ElishaPhillips.github.io/blob/74bdeabb62b19346d12ced7e0e554cc93120c869/images/projects/Quantum/figures/figev.html
+
+<iframe title="D2" aria-label="Interactive line chart" id="D23D" src="/images/projects/Quantum/figures/eval_d2_critical.html" scrolling="no" frameborder="0" style="width: 0; min-width: 200% !important; border: none;" height=528></iframe>
+
+<script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
+
+<iframe title="D2" aria-label="Interactive line chart" id="D23D" src="/images/projects/Quantum/figures/eval_d2_filtered.html" scrolling="no" frameborder="0" style="width: 0; min-width: 200% !important; border: none;" height=528></iframe>
+
+<script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
+	
+<iframe title="D2" aria-label="Interactive line chart" id="D23D" src="/images/projects/Quantum/figures/evec_d2.html" scrolling="no" frameborder="0" style="width: 0; min-width: 200% !important; border: none;" height=528></iframe>
+
+<script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
+	
+
+<iframe title="D2" aria-label="Interactive line chart" id="D23D" src="/images/projects/Quantum/figures/evec_d4.html" scrolling="no" frameborder="0" style="width: 0; min-width: 200% !important; border: none;" height=528></iframe>
+
+<script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>	
+	
+<iframe title="D2" aria-label="Interactive line chart" id="D23D" src="/images/projects/Quantum/figures/figev.html" scrolling="no" frameborder="0" style="width: 0; min-width: 200% !important; border: none;" height=528></iframe>
+
+<script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>	
 
 
 And:
