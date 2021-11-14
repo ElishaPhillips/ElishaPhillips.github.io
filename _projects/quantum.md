@@ -36,10 +36,17 @@ N1+11,N211!→~N111,N2!→~N1 ,N211! →~N111,N211!
 
 It should be noted that this delocalization causes the interdot eigenenergies to be linearly dependent on the input gate parameters and the Coloumb repulsion at these triple dot points, thus allowing us to characterize the energetics of the system without computing the eigenergy value of the dots. (Quantum Theory, 2011)
 
-Process:
+# Process:
+	
 I used QTT to import the downloaded dataset and assigned the four charge stability diagrams to their respective databases. Using the attatched .py file to locate the input parameters for offset and conversion from the imported databases I recreated the original figures referenced and stored them in higher resolution images to get an initial overview:
-
-I then used plotly to recreate Figure 2d in an interactive 3d surface graph: 
+	
+{% include post-components/gallery.html
+	columns = 1
+	full_width = true
+	images = "/images/projects/Quantum/Figures/D1.png","/images/projects/Quantum/Figures/D2.png","/images/projects/Quantum/Figures/D3.png","/images/projects/Quantum/Figures/D4.png","/images/projects/Quantum/Figures/D56.png"
+%}
+	
+I then used plotly to recreate Figure 2d in an interactive 3d surface graph, as seen in the above attachment. 
 
 # Discussion
 
@@ -84,9 +91,9 @@ The theme also supports markdown tables:
 
 And footnotes[^1], which link to explanations[^2] at the bottom of the page[^3].
 
-[^1]: Beautiful modern, minimal theme design.
-[^2]: Powerful features to show off your work.
-[^3]: Maintained and supported by the theme developer.
+[^1]: Reference 1
+[^2]: Reference 2
+[^3]: Reference 3
 
 You can throw in some horizontal rules too:
 
@@ -96,25 +103,11 @@ You can throw in some horizontal rules too:
 
 Here's a really neat custom feature we added – galleries:
 
-{% include post-components/gallery.html
-	columns = 2
-	full_width = true
-	images = "/images/demo.jpg,/images/demo.jpg,/images/demo.jpg,/images/demo.jpg,
-	"
-%}
 
-Inspired by the Galleries feature from WordPress, we've made it easy to create grid layouts for your images. Just use a simple Liquid snippet in your post to create a masonry grid image layout:
 
-{% raw %}
-```liquid
-{% include post-components/gallery.html
-	columns = 2
-	full_width = true
-	images = "/images/demo.jpg,/images/demo.jpg,/images/demo.jpg,/images/demo.jpg,
-	"
-%}
-```
-{% endraw %}
+
+
+
 
 *See what we did there? Code and syntax highlighting is built-in too!*
 
