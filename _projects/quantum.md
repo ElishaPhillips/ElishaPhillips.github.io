@@ -14,6 +14,7 @@ gallery_images:
 
 #### The practicality of these systems relies on an effective method of reading and manipulating these qubits, and the charge stability diagram provides an essential role in this process. Here, I explore and analyze such a dataset from the paper *‘Qubits made by advanced semiconductor manufacturing’* (2021) which seeks to establish the feasibility of present silicon manufacturing methods towards the future of practical quantum computing.  
 
+
 #### With this project I worked to build a better understanding of the quantum double dot systems and demonstrate novel approaches for the visualization and modeling the potential landscape of a double quantum dot system measured in a 2 -Dimensional electron gas in a Si substrate. 
 
 # Overview
