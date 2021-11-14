@@ -106,7 +106,7 @@ Inspired by the Galleries feature from WordPress, we've made it easy to create g
 {% include post-components/gallery.html
 	columns = 2
 	full_width = true
-	images = "/images/demo.jpg,/images/demo.jpg,/images/demo.jpg,/images/demo.jpg,
+	images = "/images/projects/Quantum/Figures/D2-3d.a.html"
 	"
 %}
 ```
@@ -126,7 +126,7 @@ A nice little feature: the carousel only advances when it is in view, so your vi
 {% include post-components/gallery.html
 	columns = 1
 	full_width = true
-	images = "/images/demo.jpg,/images/demo.jpg,/images/demo.jpg
+	images = "/images/projects/Quantum/Figures/D2-3d.a.html"
 	"
 %}
 
