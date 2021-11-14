@@ -40,6 +40,13 @@ It should be noted that this delocalization causes the interdot eigenenergies to
 	
 I used QTT to import the downloaded dataset and assigned the four charge stability diagrams to their respective databases. Using the attatched .py file to locate the input parameters for offset and conversion from the imported databases I recreated the original figures referenced and stored them in higher resolution images to get an initial overview:
 
+		
+{% include post-components/gallery.html
+	columns = 1
+	full_width = true
+	images = "/images/projects/Quantum/Figures/D1.png,/images/projects/Quantum/Figures/D2.png,/images/projects/Quantum/Figures/D3.png,/images/projects/Quantum/Figures/D4.png,/images/projects/Quantum/Figures/D56.png
+"
+%}
 	
 I then used plotly to recreate Figure 2d in an interactive 3d surface graph, as seen in the above attachment. 
 
