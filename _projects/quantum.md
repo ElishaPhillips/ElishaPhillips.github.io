@@ -17,9 +17,8 @@ The practicality of these systems relies on an effective method of reading and m
 
 # Overview
 
-<iframe src="/images/projects/Quantum/Figures/D2-3d.a.html" allowfullscreen></iframe>
-
 <iframe class="embed-responsive-item" src="/images/projects/Quantum/Figures/D2-3d.a.html" allowfullscreen></iframe>
+
 
 
 An excellent resource throughout this process, in addition to the above referenced paper, was ‘Electron transport through double quantum dots’ (2003) , detailing the mechanics of the double quantum dot system, and the relevancy of the charge stability diagram in their application. Briefly, the quantum dots are measured with two swept gate voltages that manipulate the electrochemical potential between the two, a process suppressed by the Columb Blockade effect for sufficiently low voltages. As the gate voltages are swept, conductive coupling between the dots increases until the charge states become degenerate, a delocalized amplitude between the two dots.
@@ -107,7 +106,7 @@ Inspired by the Galleries feature from WordPress, we've made it easy to create g
 {% include post-components/gallery.html
 	columns = 2
 	full_width = true
-	images = ""
+	images = "/images/demo.jpg,/images/demo.jpg,/images/demo.jpg,/images/demo.jpg,
 	"
 %}
 ```
@@ -127,7 +126,7 @@ A nice little feature: the carousel only advances when it is in view, so your vi
 {% include post-components/gallery.html
 	columns = 1
 	full_width = true
-	images = ""
+	images = "/images/demo.jpg,/images/demo.jpg,/images/demo.jpg
 	"
 %}
 
@@ -136,7 +135,7 @@ A nice little feature: the carousel only advances when it is in view, so your vi
 Videos are an awesome way to show off your work in a more engaging and personal way, and we’ve made sure they work great on our themes. Just paste an embed code from YouTube or Vimeo, and the theme makes sure it displays perfectly:
 
 {% include post-components/video.html
-	src="'
+	url = "https://player.vimeo.com/video/270725085?color=6c6e95&title=0&byline=0"
 	full_width = true
 %}
 
