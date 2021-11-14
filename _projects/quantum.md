@@ -16,8 +16,7 @@ Semiconductor-based quantum computing is promising as it provides potential for 
 The practicality of these systems relies on an effective method of reading and manipulating these qubits, and the charge stability diagram provides an essential role in this process. Here, I explore and analyze such a dataset from the paper ‘Qubits made by advanced semiconductor manufacturing’ (2021) which seeks to establish the feasibility of present silicon manufacturing methods towards the future of practical quantum computing.  With this project I worked to build a better understanding of the quantum double dot systems and demonstrate novel approaches for the visualization and modeling the potential landscape of a double quantum dot system measured in a 2 -Dimensional electron gas in a Si substrate. 
 
 # Overview
-
- <iframe src="/images/projects/Quantum/Figures/D2-3d.a.html"></iframe>
+<iframe class="embed-responsive-item" src="/images/projects/Quantum/Figures/D2-3d.a.html" allowfullscreen></iframe>
 
 An excellent resource throughout this process, in addition to the above referenced paper, was ‘Electron transport through double quantum dots’ (2003) , detailing the mechanics of the double quantum dot system, and the relevancy of the charge stability diagram in their application. Briefly, the quantum dots are measured with two swept gate voltages that manipulate the electrochemical potential between the two, a process suppressed by the Columb Blockade effect for sufficiently low voltages. As the gate voltages are swept, conductive coupling between the dots increases until the charge states become degenerate, a delocalized amplitude between the two dots.
 
