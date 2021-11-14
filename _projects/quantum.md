@@ -8,8 +8,29 @@ featured_image: /images/projects/Quantum/AdobeStock_320419547.png
 
 ![](/images/projects/Quantum/AdobeStock_320419547.png)
 
-Testing Testing Testing
+Abstract
 
+Semiconductor-based quantum computing is promising as it provides potential for the integration of qubits with their control and readout circuits on a single chip. This paves the way for the realization of a large-scale quantum computing system. 
+
+The practicality of these systems relies on an effective method of reading and manipulating these qubits, and the charge stability diagram provides an essential role in this process. Here, I explore and analyze such a dataset from the paper ‘Qubits made by advanced semiconductor manufacturing’ (2021) which seeks to establish the feasibility of present silicon manufacturing methods towards the future of practical quantum computing.  With this project I worked to build a better understanding of the quantum double dot systems and demonstrate novel approaches for the visualization and modeling the potential landscape of a double quantum dot system measured in a 2 -Dimensional electron gas in a Si substrate. 
+
+Intro
+
+An excellent resource throughout this process, in addition to the above referenced paper, was ‘Electron transport through double quantum dots’ (2003) , detailing the mechanics of the double quantum dot system, and the relevancy of the charge stability diagram in their application. Briefly, the quantum dots are measured with two swept gate voltages that manipulate the electrochemical potential between the two, a process suppressed by the Columb Blockade effect for sufficiently low voltages. As the gate voltages are swept, conductive coupling between the dots increases until the charge states become degenerate, a delocalized amplitude between the two dots.
+
+The hole transfer process:
+
+Where the dots cycle through the sequence  (N1 , N2)→(N1,1 N2)→(N1 , N2,1)→(N1 ,N2)
+Which sequentially tunnels an electron from the left to the right lead, 
+And the opposing case, the hole transfer process:  
+N1+11,N211!→~N111,N2!→~N1 ,N211! →~N111,N211!
+
+It should be noted that this delocalization causes the interdot eigenenergies to be linearly dependent on the input gate parameters and the Coloumb repulsion at these triple dot points, thus allowing us to characterize the energetics of the system without computing the eigenergy value of the dots. (Quantum Theory, 2011)
+
+Process:
+I used QTT to import the downloaded dataset and assigned the four charge stability diagrams to their respective databases. Using the attatched .py file to locate the input parameters for offset and conversion from the imported databases I recreated the original figures referenced and stored them in higher resolution images to get an initial overview:
+
+I then used plotly to recreate Figure 2d in an interactive 3d surface graph: 
 
 # Discussion
 
