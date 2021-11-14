@@ -18,7 +18,7 @@ footer_settings:
   tagline: A beautiful, minimal portfolio Jekyll theme
 
 hero_settings:
-  background_image: /images/backgrounds/background-hero.svg
+  background_image: /images/backgrounds/background_dots.svg
 
 post_settings:
   grid_spacing: 10
