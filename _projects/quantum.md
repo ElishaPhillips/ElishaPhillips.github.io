@@ -11,14 +11,20 @@ featured_image: /images/projects/Quantum/AdobeStock_320419547.png
 Testing Testing Testing
 
 
-# Abstract
-# Methods 
-# Results 
 # Discussion
 
 ![](/images/projects/Quantum/AdobeStock_332906314.png)
+
+# Methods 
+
 ![](/images/projects/Quantum/AdobeStock_332906314.png)
+
+# Results 
+
 ![](/images/projects/Quantum/AdobeStock_378614280.png)
+
+# Discussion
+
 ![](/images/projects/Quantum/AdobeStock_467591331.png)
 
 Bulleted list
