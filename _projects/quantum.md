@@ -17,11 +17,13 @@ gallery_images:
 
 ###### With this project I worked to build a better understanding of the quantum double dot systems and demonstrate novel approaches for the visualization and modeling the potential landscape of a double quantum dot system measured in a 2 -Dimensional electron gas in a Si substrate. 
 
+
 # Overview
 
 
-<iframe title="D2" aria-label="Interactive line chart" id="D23D" src="/images/projects/Quantum/Figures/D2-3d.a.html" scrolling="no" frameborder="0" style="width: 200%; min-width: 100% !important; border: none;"></iframe>
+<iframe title="D2" aria-label="Interactive line chart" id="D23D" src="/images/projects/Quantum/Figures/D2-3d.a.html" scrolling="no" frameborder="0" style="width: 0; min-width: 200% !important; border: none;" height="528"></iframe>
 
+<script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
 
 An excellent resource throughout this process, in addition to the above referenced paper, was ‘Electron transport through double quantum dots’ (2003) , detailing the mechanics of the double quantum dot system, and the relevancy of the charge stability diagram in their application. Briefly, the quantum dots are measured with two swept gate voltages that manipulate the electrochemical potential between the two, a process suppressed by the Columb Blockade effect for sufficiently low voltages. As the gate voltages are swept, conductive coupling between the dots increases until the charge states become degenerate, a delocalized amplitude between the two dots.
 
