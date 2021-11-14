@@ -1,12 +1,12 @@
 ---
-title: 'Demo Project'
-subtitle: 'This is a demo'
+title: 'Quantum Dots'
+subtitle: 'Data Analysis and Visualization'
 date: 2018-06-30 00:00:00
-description: This page is a demo that shows everything you can do inside portfolio and blog posts.
-featured_image: '/images/demo/demo-square.jpg'
+description: Extracting critical features from published charge stability datasets measured from two Si Quantum Dots 
+featured_image: 'images/elements/AdobeStock_320419547.jpeg'
 ---
 
-![](/images/demo/demo-landscape.jpg)
+![](images/elements/AdobeStock_320419547.jpeg)
 
 ## Demo content
 
