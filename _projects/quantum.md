@@ -17,12 +17,7 @@ The practicality of these systems relies on an effective method of reading and m
 
 # Overview
 
- <iframe class="embed-responsive-item" src="/images/projects/Quantum/Figures/D2-3d.a.html" allowfullscreen></iframe>
- 
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="images/projects/Quantum/Figures/D2-3d.a.html" allowfullscreen></iframe>
-</div>
-
+<iframe src="images/projects/Quantum/Figures/D2-3d.a.html" class="is-fullwidth" </iframe>
 
 An excellent resource throughout this process, in addition to the above referenced paper, was ‘Electron transport through double quantum dots’ (2003) , detailing the mechanics of the double quantum dot system, and the relevancy of the charge stability diagram in their application. Briefly, the quantum dots are measured with two swept gate voltages that manipulate the electrochemical potential between the two, a process suppressed by the Columb Blockade effect for sufficiently low voltages. As the gate voltages are swept, conductive coupling between the dots increases until the charge states become degenerate, a delocalized amplitude between the two dots.
 
