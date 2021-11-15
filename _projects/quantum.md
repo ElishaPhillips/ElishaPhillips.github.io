@@ -129,11 +129,10 @@ _All graphs used in this article can be downloaded from ['/Quantum/figures'](htt
 		[https://arxiv.org/abs/2101.12650v1](https://arxiv.org/abs/2101.12650v1)
 	
 [^2]: Wiel, Wilfred van der et al. “Electron transport through double quantum dots.” Reviews of Modern Physics 75 (2002): 1-22.
-	
-[https://arxiv.org/abs/cond-mat/0205350v2](https://arxiv.org/abs/cond-mat/0205350v2)
+		[https://arxiv.org/abs/cond-mat/0205350v2](https://arxiv.org/abs/cond-mat/0205350v2)
 	
 [^3]: Wang, Xin, Shuo Yang, and S. Das Sarma. "Quantum theory of the charge-stability diagram of semiconductor double-quantum-dot systems." Physical 			Review B 84.11 (2011): 115301.
-[https://arxiv.org/abs/1104.5491v2](https://arxiv.org/abs/1104.5491v2)
+		[https://arxiv.org/abs/1104.5491v2](https://arxiv.org/abs/1104.5491v2)
 	
 - - -
 	
