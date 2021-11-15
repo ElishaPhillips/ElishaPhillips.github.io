@@ -12,6 +12,7 @@ gallery_images:
 
 With this project, I worked to develop a greater understanding of Quantum Computing double-dot systems. I also demonstrate novel approaches for the visualization and modeling of the potential landscape of a double quantum dot system measured in a 2 -Dimensional electron gas in a Si substrate. This work is a vital exercise; developing interactive visualizations can be leveraged to construct better methodologies and play a critical role in improving a communication framework towards relaying significant findings of complex systems to a general public audience who may not carry such an intensive background.
 
+
 # Overview
 
 >"Large-scale Quantum Computing systems in real-world implementation faces many present obstacles toward such an end. One of the multiple core challenges >gating the practicality of these systems relies on delivering an effective and scalable method of reading and manipulating these qubits."
@@ -22,15 +23,9 @@ Here, I explore and analyze a recent dataset from the paper _'Qubits made by adv
 
 An excellent resource throughout this process, in addition to the above-referenced paper, was 'Electron transport through double quantum dots' (2003[^2]), detailing the mechanics of these systems and the relevancy of the charge stability diagram in their application. Briefly, one measures the quantum dots as two gate voltages manipulate the electrochemical potential, a process suppressed by the Columb Blockade effect for sufficiently low voltages. As the gate voltages increase, conductive coupling between the dots increases until the charge states degenerate, a delocalized amplitude between the two dots.
 
-Illustrating the charge transfer process:
-⬤ (N1 , N2)→(N1,1 N2)→(N1 , N2,1)→(N1 ,N2) 
-Sequentially tunnels an electron from the left to the right lead
-◯ N1+11,N211!→~N111,N2!→~N1 ,N211! →~N111,N211!
-Sequentially tunnels a 'hole' from the right to the left lead
-
 Notably, this delocalization causes the interdot eigenenergies to be linearly dependent on the input gate parameters and the Coulomb repulsion at these triple-dot points, thus allowing us to characterize the energetics of the system without needing to compute the eigenergy value of the dots. (Quantum Theory, 2011[^3])
 
-Tools:
+# Tools:
 
 I performed this analysis in Python, using Jupyter Notebook.
 
@@ -44,7 +39,7 @@ I posted this writeup on a webpage built with Jekyll/Gem and hosted on Github, w
 
 _Note: Due to the nature and limited reliability of properly scaling HTML graphs in an iframe container, mobile viewing is not currently functional, and Desktop viewing is required. In the future, I plan to rebuild the graphs in a Dash framework to fix this issue._
 
-Process:
+# Process:
 
 <iframe title="D2" aria-label="Interactive line chart" id="D23D" src="/images/projects/Quantum/figures/D2-3d.a.html" scrolling="no" frameborder="0" style="width: 0; min-width: 200% !important; border: none;" height=1024></iframe>
 
@@ -131,16 +126,15 @@ _All graphs used in this article can be downloaded from ['/Quantum/figures'](htt
 - - -
  
 [^1]: Zwerver, A. M. J. et al. “Qubits made by advanced semiconductor manufacturing.” (2021).
-	
 		[https://arxiv.org/abs/2101.12650v1](https://arxiv.org/abs/2101.12650v1)
 	
 [^2]: Wiel, Wilfred van der et al. “Electron transport through double quantum dots.” Reviews of Modern Physics 75 (2002): 1-22.
 	
-		[https://arxiv.org/abs/cond-mat/0205350v2](https://arxiv.org/abs/cond-mat/0205350v2)
+[https://arxiv.org/abs/cond-mat/0205350v2](https://arxiv.org/abs/cond-mat/0205350v2)
 	
 [^3]: Wang, Xin, Shuo Yang, and S. Das Sarma. "Quantum theory of the charge-stability diagram of semiconductor double-quantum-dot systems." Physical 			Review B 84.11 (2011): 115301.
-	
-		[https://arxiv.org/abs/1104.5491v2](https://arxiv.org/abs/1104.5491v2)
+[https://arxiv.org/abs/1104.5491v2](https://arxiv.org/abs/1104.5491v2)
 	
 - - -
+	
 ![](/images/projects/Quantum/AdobeStock_332906314.png)
