@@ -127,9 +127,13 @@ The theme also supports markdown tables:
 And footnotes[^1], which link to explanations[^2] at the bottom of the page[^3].
 
 [^1]: Reference 1
-[^2]: Reference 2
-[^3]: Reference 3
-
+[^2]: Wiel, Wilfred van der et al. “Electron transport through double quantum dots.” Reviews of Modern Physics 75 (2002): 1-22.
+		https://arxiv.org/abs/cond-mat/0205350v2
+[^3]: Wang, Xin, Shuo Yang, and S. Das Sarma. "Quantum theory of the charge-stability diagram of semiconductor double-quantum-dot systems." Physical 			Review B 84.11 (2011): 115301.
+		https://arxiv.org/abs/1104.5491v2
+	Automated tuning of inter-dot tunnel coupling in double quantum dots
+Avoided level crossings, diabolic points, and branch points in the complex plane
+in an open double quantum dot
 You can throw in some horizontal rules too:
 
 ---
