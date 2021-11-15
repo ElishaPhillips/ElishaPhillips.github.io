@@ -15,7 +15,7 @@ With this project, I worked to develop a greater understanding of Quantum Comput
 
 # Overview
 
->"Large-scale Quantum Computing systems in real-world implementation faces many present obstacles toward such an end. One of the multiple core challenges >gating the practicality of these systems relies on delivering an effective and scalable method of reading and manipulating these qubits."
+>"Large-scale Quantum Computing systems in real-world implementation faces many present obstacles toward such an end. One of the challenges gating the practicality of these systems relies on delivering an effective and scalable method of reading and manipulating these qubits."
 
 Nonetheless, the prospect is exciting! Additionally, this wouldn't be quite as fun if it were that easy. 
 
