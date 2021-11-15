@@ -46,6 +46,10 @@ _Note: Due to the nature and limited reliability of properly scaling HTML graphs
 
 Process:
 
+<iframe title="D2" aria-label="Interactive line chart" id="D23D" src="/images/projects/Quantum/figures/D2-3d.a.html" scrolling="no" frameborder="0" style="width: 0; min-width: 200% !important; border: none;" height=1024></iframe>
+
+<script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
+	
 I used QTT DelTech's Quantum Technology Toolkit to import the downloaded dataset and assigned the four charge stability diagrams to their respective databases. Using the included .py file to locate the input parameters for offset and conversion from the imported databases, I recreated the original figures referenced to examine in higher resolution and to get an initial overview.
  
 In the below figures, one can see how as a constant voltage G4 increases, the geometric patterns form due to the interdot symmetry, and the three lines of the phase boundary indicate an excellent formation of these delocalized states in the second image. As this voltage increases, these boundaries become parallel as the current can flow freely, and these dots effectively form a single quantum dot. I selected the second dataset for further analysis and produced the 3d surface plot above this section to look at this hexagonal formation in more detail.
@@ -87,17 +91,17 @@ Below is the D2 dataset, in which I sliced the data along the x-axis to demonstr
 <script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
 
 The eigenvalues also tell an exciting story; in the below graph, the 1-Dimensional values are scaled across the Y plane and highlight the correlating energy levels of the system. Along with the origin, one can see the five distinct eigenstates and the formation in the landscape of two discrete levels, i.e., the ground state and the excited state of the two dots! 
-
-<iframe title="D2" aria-label="Interactive line chart" id="D23D" src="/images/projects/Quantum/figures/eval_d2_critical.html" scrolling="no" frameborder="0" style="width: 0; min-width: 200% !important; border: none;" height=1024></iframe>
-
-<script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
-	
-I then separated these two levels via vertically scaling in opposing directions, I chose to use a value of 500 per, but the number here is arbitrary and solely for visual distinction. I additionally filtered out all values below 45 pA to better isolate the current peaks. Much better! 
 	
 <iframe title="D2" aria-label="Interactive line chart" id="D23D" src="/images/projects/Quantum/figures/eval_d2" scrolling="no" frameborder="0" style="width: 0; min-width: 200% !important; border: none;" height=1024></iframe>
 	
 <script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
+	
+I then separated these two levels via vertically scaling in opposing directions, I chose to use a value of 500 per, but the number here is arbitrary and solely for visual distinction. I additionally filtered out all values below 45 pA to better isolate the current peaks. Much better! 
 
+<iframe title="D2" aria-label="Interactive line chart" id="D23D" src="/images/projects/Quantum/figures/eval_d2_filtered.html" scrolling="no" frameborder="0" style="width: 0; min-width: 200% !important; border: none;" height=1024></iframe>
+
+<script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
+	
 As the final step in this process, I wrote a simple nearest neighbor algorithm that found the peak values within a small 'box' swept across the x and y-axis. I'd add that there is room for improvement with the efficacy of this algorithm, but this proved to be effective and avoided the inconsistencies of simply isolating the peak current values across the system. I also took the eigenvector graph and mapped a 2mV slice from the origin across the x-axis, retaining the initial parameters for the y axis. 
 
 # Results
@@ -113,7 +117,7 @@ The tunneling effects are now clearly represented. At the origin, the Columb eff
 
 The final eigenvalue graph is likewise successful. I mapped the resultant values in green with the nearest neighbor algorithm to stand out from the existing color scheme. 
 
-<iframe title="D2" aria-label="Interactive line chart" id="D23D" src="/images/projects/Quantum/figures/eval_d2_filtered.html" scrolling="no" frameborder="0" style="width: 0; min-width: 200% !important; border: none;" height=1024></iframe>
+<iframe title="D2" aria-label="Interactive line chart" id="D23D" src="/images/projects/Quantum/figures/eval_d2_critical.html" scrolling="no" frameborder="0" style="width: 0; min-width: 200% !important; border: none;" height=1024></iframe>
 
 <script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
 	
@@ -121,96 +125,22 @@ From a top-down perspective, these isolated values maintain the hole-dot symmetr
 
 As this was an initial exploration and modeling of the behavioral characteristics of this dataset, I will need to conduct further analysis to determine the accuracy of the selected values and implement an efficient pipeline. However, this exercise did succeed in building interactive models that can efficiently communicate behavioral models of fundamental quantum computing systems from a real-world dataset. This process also helped establish a more intuitive understanding of these systems and narrow my focus for projects to be tackled in future efforts. 
 
-
-<iframe title="D2" aria-label="Interactive line chart" id="D23D" src="/images/projects/Quantum/figures/D2-3d.a.html" scrolling="no" frameborder="0" style="width: 0; min-width: 200% !important; border: none;" height=1024></iframe>
-
-<script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
-
-An excellent resource throughout this process, in addition to the above referenced paper, was ‘Electron transport through double quantum dots’ (2003) , detailing the mechanics of the double quantum dot system, and the relevancy of the charge stability diagram in their application. Briefly, the quantum dots are measured with two swept gate voltages that manipulate the electrochemical potential between the two, a process suppressed by the Columb Blockade effect for sufficiently low voltages. As the gate voltages are swept, conductive coupling between the dots increases until the charge states become degenerate, a delocalized amplitude between the two dots.
-
-The hole transfer process:
-
-Where the dots cycle through the sequence  (N1 , N2)→(N1,1 N2)→(N1 , N2,1)→(N1 ,N2)
-Which sequentially tunnels an electron from the left to the right lead, 
-And the opposing case, the hole transfer process:  
-N1+11,N211!→~N111,N2!→~N1 ,N211! →~N111,N211!
-
-It should be noted that this delocalization causes the interdot eigenenergies to be linearly dependent on the input gate parameters and the Coloumb repulsion at these triple dot points, thus allowing us to characterize the energetics of the system without computing the eigenergy value of the dots. (Quantum Theory, 2011)
-
-# Process:
-	
-I used QTT to import the downloaded dataset and assigned the four charge stability diagrams to their respective databases. Using the attatched .py file to locate the input parameters for offset and conversion from the imported databases I recreated the original figures referenced and stored them in higher resolution images to get an initial overview:
-
-		
-
-	
-I then used plotly to recreate Figure 2d in an interactive 3d surface graph, as seen in the above attachment. 
-
-
 _All graphs used in this article can be downloaded from ['/Quantum/figures'](https://github.com/ElishaPhillips/ElishaPhillips.github.io/tree/main/images/projects/Quantum/figures)_
-
-# Discussion
-
-![](/images/projects/Quantum/AdobeStock_332906314.png)
-
-
-
-
-	
-
-
 
 
 - - -
  
 [^1]: Zwerver, A. M. J. et al. “Qubits made by advanced semiconductor manufacturing.” (2021).
+	
 		[https://arxiv.org/abs/2101.12650v1](https://arxiv.org/abs/2101.12650v1)
+	
 [^2]: Wiel, Wilfred van der et al. “Electron transport through double quantum dots.” Reviews of Modern Physics 75 (2002): 1-22.
+	
 		[https://arxiv.org/abs/cond-mat/0205350v2](https://arxiv.org/abs/cond-mat/0205350v2)
+	
 [^3]: Wang, Xin, Shuo Yang, and S. Das Sarma. "Quantum theory of the charge-stability diagram of semiconductor double-quantum-dot systems." Physical 			Review B 84.11 (2011): 115301.
+	
 		[https://arxiv.org/abs/1104.5491v2](https://arxiv.org/abs/1104.5491v2)
+	
 - - -
-
-#### Image galleries
-
-Here's a really neat custom feature we added – galleries:
-
-
-
-
-
-
-
-*See what we did there? Code and syntax highlighting is built-in too!*
-
-Change the number inside the 'columns' setting to create different types of gallery for all kinds of purposes. You can even click on each image to seamlessly enlarge it on the page.
-
-
-#### Image carousels
-
-Here's another gallery with only one column, which creates a carousel slide-show instead.
-
-A nice little feature: the carousel only advances when it is in view, so your visitors won't scroll down to find it half way through your images.
-
-{% include post-components/gallery.html
-	columns = 1
-	full_width = true
-	images = "/images/demo.jpg,/images/demo.jpg,/images/demo.jpg
-	"
-%}
-
-#### What about videos?
-
-Videos are an awesome way to show off your work in a more engaging and personal way, and we’ve made sure they work great on our themes. Just paste an embed code from YouTube or Vimeo, and the theme makes sure it displays perfectly:
-
-{% include post-components/video.html
-	url = "https://player.vimeo.com/video/270725085?color=6c6e95&title=0&byline=0"
-	full_width = true
-%}
-
-### Pretty cool, huh?
-
-We've packed this theme with powerful features to show off your work.
-Why not put them to use on your new website?
-
-<a href="https://jekyllthemes.io/theme/made-portfolio-jekyll-theme" class="button--fill">Get This Theme</a>
+![](/images/projects/Quantum/AdobeStock_332906314.png)
