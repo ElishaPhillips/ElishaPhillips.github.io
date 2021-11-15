@@ -85,7 +85,7 @@ Below is the D2 dataset, in which I sliced the data along the x-axis to demonstr
 
 <script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>  
 
-The eigenvalues also tell a story; in the below graph, the 1-Dimensional values are scaled across the Y plane and highlight the correlating energy levels of the system. Along with the origin, one can see the five distinct eigenstates and the formation in the landscape of two discrete levels, i.e., the ground state and the excited state of the two dots!  
+The eigenvalue graph is similarly telling; in the below graph, the 1-Dimensional values are scaled across the Y plane and highlight the correlating energy levels of the system. Along with the origin, one can see the five distinct eigenstates and the formation in the landscape of two discrete levels, i.e., the ground state and the excited state of the two dots!  
 	
 <iframe title="D2" aria-label="Interactive line chart" id="D23D" src="/images/projects/Quantum/figures/eval_d2" scrolling="no" frameborder="0" style="width: 0; min-width: 200% !important; border: none;" height=1024></iframe>  
 	
