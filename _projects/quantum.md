@@ -123,7 +123,7 @@ As this was an initial exploration and modeling of the behavioral characteristic
 _All graphs used in this article can be downloaded from ['/Quantum/figures'](https://github.com/ElishaPhillips/ElishaPhillips.github.io/tree/main/images/projects/Quantum/figures)_
 
 
-- - -
+
  
 [^1]: Zwerver, A. M. J. et al. “Qubits made by advanced semiconductor manufacturing.” (2021).
 		[https://arxiv.org/abs/2101.12650v1](https://arxiv.org/abs/2101.12650v1)
@@ -133,7 +133,5 @@ _All graphs used in this article can be downloaded from ['/Quantum/figures'](htt
 	
 [^3]: Wang, Xin, Shuo Yang, and S. Das Sarma. "Quantum theory of the charge-stability diagram of semiconductor double-quantum-dot systems." Physical 			Review B 84.11 (2011): 115301.
 		[https://arxiv.org/abs/1104.5491v2](https://arxiv.org/abs/1104.5491v2)
+
 	
-- - -
-	
-![](/images/projects/Quantum/AdobeStock_332906314.png)
