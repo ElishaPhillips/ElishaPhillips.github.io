@@ -8,16 +8,13 @@ gallery_images:
   - AdobeStock_320419547.png
 ---
 
->"Large-scale Quantum Computing systems in real-world implementation faces many present obstacles toward such an end. One of the multiple core challenges >gating the practicality of these systems relies on delivering an effective and scalable method of reading and manipulating these qubits."
-
-
 # Abstract
 
 With this project, I worked to develop a greater understanding of Quantum Computing double-dot systems. I also demonstrate novel approaches for the visualization and modeling of the potential landscape of a double quantum dot system measured in a 2 -Dimensional electron gas in a Si substrate. This work is a vital exercise; developing interactive visualizations can be leveraged to construct better methodologies and play a critical role in improving a communication framework towards relaying significant findings of complex systems to a general public audience who may not carry such an intensive background.
 
 # Overview
 
-_Large-scale Quantum Computing systems in real-world implementation faces many present obstacles toward such an end. One of the multiple core challenges gating the practicality of these systems relies on delivering an effective and scalable method of reading and manipulating these qubits. _
+>"Large-scale Quantum Computing systems in real-world implementation faces many present obstacles toward such an end. One of the multiple core challenges >gating the practicality of these systems relies on delivering an effective and scalable method of reading and manipulating these qubits."
 
 Nonetheless, the prospect is exciting! Additionally, this wouldn't be quite as fun if it were that easy. 
 
