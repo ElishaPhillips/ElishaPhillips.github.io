@@ -37,7 +37,7 @@ For visualizations, I utilized Matplotlib and Plotly, using Plotly to generate t
 
 I posted this writeup on a webpage built with Jekyll/Gem and hosted on Github, with various customized CSS/Html/JS elements from a pre-formed template.   
 
-_Note: Due to the nature and limited reliability of properly scaling HTML graphs in an iframe container, mobile viewing is not currently functional, and Desktop viewing is required. In the future, I plan to rebuild the graphs in a Dash framework to fix this issue._  
+_Note: Due to the nature and limited reliability of properly scaling HTML graphs in an iframe container, mobile viewing has some scaling issues, and Desktop viewing is recommended. In the future, I plan to rebuild the graphs in a Dash framework to fix this issue._  
 
 # Process:  
 
