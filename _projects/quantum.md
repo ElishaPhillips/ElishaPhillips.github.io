@@ -73,7 +73,7 @@ This method did prove to be effective. Using Plotly, I created both a vector qui
 	
 I attempted to further characterize and filter these features in more depth with a simple filtering algorithm, but I ran into issues establishing a working solution, and further work would be needed. As the dataset is quite large, a possible better approach would be to sample the dataset at various points to fine-tune the filtering algorithm before processing through the original set.  
 
-Instead, I targeted the zero points of the eigenvector's complex elements to filter out and then separated the real counterparts. I also took the corresponding eigenvalues to examine separately. The system still features a fair amount of noise/additional effects, but the patterns are still identifiable. The color scale on these figures was mapped to the measured current in Pa, with bright pink representing the peak values and blue representing the lower. I plotted both according to the two gate voltages on the x and y-axis, with z representing the respective eigenenergies and eigenvalues. For a direct comparison, I processed the D4 dataset similarly and plotted the eigenvectors with the resulting graph below. You can see the homogeneity of the current peaks at the higher bias voltages, showing a relative uniformity of the system.   
+Instead, I targeted the zero points of the eigenvector's complex elements to filter out and then separated the real counterparts. I also took the corresponding eigenvalues to examine separately. The system still features a fair amount of noise/additional effects, but the patterns are still identifiable. The color scale on these figures was mapped to the measured current in pA, with bright pink representing the peak values and blue representing the lower. I plotted both according to the two gate voltages on the x and y-axis, with z representing the respective eigenenergies and eigenvalues. For a direct comparison, I processed the D4 dataset similarly and plotted the eigenvectors with the resulting graph below. You can see the homogeneity of the current peaks at the higher bias voltages, showing a relative uniformity of the system.   
 
 <iframe title="D2" aria-label="Interactive line chart" id="D23D" src="/images/projects/Quantum/figures/evec_d4.html" scrolling="no" frameborder="0" style="width: 0; min-width: 200% !important; border: none;" height=1024></iframe>  
 
@@ -85,7 +85,7 @@ Below is the D2 dataset, in which I sliced the data along the x-axis to demonstr
 
 <script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>  
 
-The eigenvalues also tell an exciting story; in the below graph, the 1-Dimensional values are scaled across the Y plane and highlight the correlating energy levels of the system. Along with the origin, one can see the five distinct eigenstates and the formation in the landscape of two discrete levels, i.e., the ground state and the excited state of the two dots!  
+The eigenvalues also tell a story; in the below graph, the 1-Dimensional values are scaled across the Y plane and highlight the correlating energy levels of the system. Along with the origin, one can see the five distinct eigenstates and the formation in the landscape of two discrete levels, i.e., the ground state and the excited state of the two dots!  
 	
 <iframe title="D2" aria-label="Interactive line chart" id="D23D" src="/images/projects/Quantum/figures/eval_d2" scrolling="no" frameborder="0" style="width: 0; min-width: 200% !important; border: none;" height=1024></iframe>  
 	
@@ -101,7 +101,7 @@ As the final step in this process, I wrote a simple nearest neighbor algorithm t
 
 # Results  
 
-Here is the resulting eigenvector graph:  
+Here is the resulting eigenvector graph, sliced from 3770 mV to 3772 mV:  
 	
 <iframe title="D2" aria-label="Interactive line chart" id="D23D" src="/images/projects/Quantum/figures/evec_d2_sliced.html" scrolling="no" frameborder="0" style="width: 0; min-width: 200% !important; border: none;" height=1024></iframe>  
 
@@ -120,7 +120,7 @@ From a top-down perspective, these isolated values maintain the hole-dot symmetr
 
 As this was an initial exploration and modeling of the behavioral characteristics of this dataset, I will need to conduct further analysis to determine the accuracy of the selected values and implement an efficient pipeline. However, this exercise did succeed in building interactive models that can efficiently communicate behavioral models of fundamental quantum computing systems from a real-world dataset. This process also helped establish a more intuitive understanding of these systems and narrow my focus for projects to be tackled in future efforts.   
 
-_All graphs used in this article can be downloaded from ['/Quantum/figures'](https://github.com/ElishaPhillips/ElishaPhillips.github.io/tree/main/images/projects/Quantum/figures)_
+_All graphs used in this project can be downloaded from ['/Quantum/figures'](https://github.com/ElishaPhillips/ElishaPhillips.github.io/tree/main/images/projects/Quantum/figures)_
 
  
 [^1]: Zwerver, A. M. J. et al. “Qubits made by advanced semiconductor manufacturing.” (2021).
