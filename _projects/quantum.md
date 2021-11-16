@@ -97,7 +97,7 @@ I then separated these two levels via vertically scaling in opposing directions,
 
 <script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>  
 	
-As the final step in this process, I wrote a simple nearest neighbor algorithm that found the peak values within a small 'box' swept across the x and y-axis. I'd add that there is room for improvement with the efficacy of this algorithm, but this proved to be effective and avoided the inconsistencies of simply isolating the peak current values across the system. I also took the eigenvector graph and mapped a 2mV slice from the origin across the x-axis, retaining the initial parameters for the y axis.  
+As the final step in this process, I wrote a simple nearest algorithm that found the peak values relative to their nearest neighbors within a small 'box' swept across the x and y-axis. I'd add that there is room for improvement with the efficacy of this algorithm, but this proved to be effective and avoided the inconsistencies of simply isolating the peak current values across the system. I also took the eigenvector graph and mapped a 2mV slice from the origin across the x-axis, retaining the initial parameters for the y axis.  
 
 # Results  
 
@@ -110,7 +110,7 @@ Here is the resulting eigenvector graph, sliced from 3770 mV to 3772 mV:
 
 The tunneling effects are now clearly represented. At the origin, the Columb effect forms a cohesive barrier. In the following two slices, you can see the isolated behavior of the degenerative states between the dots! *(probably ;)   
 
-The final eigenvalue graph is likewise successful. I mapped the resultant values in green with the nearest neighbor algorithm to stand out from the existing color scheme.   
+The final eigenvalue graph is likewise successful. I mapped the resultant values in green with the localized peak algorithm to stand out from the existing color scheme.   
 
 <iframe title="D2" aria-label="Interactive line chart" id="D23D" src="/images/projects/Quantum/figures/eval_d2_critical.html" scrolling="no" frameborder="0" style="width: 0; min-width: 200% !important; border: none;" height=1024></iframe>  
 
