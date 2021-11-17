@@ -25,7 +25,7 @@ An excellent resource throughout this process, in addition to the above-referenc
 
 Notably, this delocalization causes the interdot eigenenergies to be linearly dependent on the input gate parameters and the Coulomb repulsion at these triple-dot points thus allowing us to characterize the energetics of the system without needing to compute the eigenergy value of the dots.(Quantum Theory, 2011[^3]) This is due to decoherence, or an apparent "collapse," of the complex quantum wave function (i.e. this degenerated interdot amplitude) mathematically described as a set of multiple eigenstates within a Hilbert vector space when it "leaks"* one of its probable basis eigenstates as a measurable parameter. 
 
-\\\*depending on who you're talking to, this is one of *many* theories and interpretations. The key takeaway here is *don't play yahtzee in church... 
+\\*depending on who you're talking to, this is one of *many* theories and interpretations. The key takeaway here is *don't play yahtzee in church*... 
 
 # Tools:  
 
