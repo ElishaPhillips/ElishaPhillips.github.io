@@ -23,7 +23,9 @@ Here, I explore and analyze a recent dataset from the paper _'Qubits made by adv
 
 An excellent resource throughout this process, in addition to the above-referenced paper, was 'Electron transport through double quantum dots' (2003[^2]), detailing the mechanics of these systems and the relevancy of the charge stability diagram in their application. Briefly, one measures the quantum dots as two gate voltages manipulate the electrochemical potential, a process suppressed by the Columb Blockade effect for sufficiently low voltages. As the gate voltages increase, conductive coupling between the dots increases until the charge states degenerate, a delocalized amplitude between the two dots.  
 
-Notably, this delocalization causes the interdot eigenenergies to be linearly dependent on the input gate parameters and the Coulomb repulsion at these triple-dot points, thus allowing us to characterize the energetics of the system without needing to compute the eigenergy value of the dots. (Quantum Theory, 2011[^3])  
+Notably, this delocalization causes the interdot eigenenergies to be linearly dependent on the input gate parameters and the Coulomb repulsion at these triple-dot points thus allowing us to characterize the energetics of the system without needing to compute the eigenergy value of the dots.(Quantum Theory, 2011[^3]) This is due to decoherence, or an apparent "collapse," of the complex quantum wave function (i.e. this degenerated interdot amplitude) mathematically described as a set of multiple eigenstates within a Hilbert vector space when it "leaks"* one of its probable basis eigenstates as a measurable parameter. 
+
+\\\*depending on who you're talking to, this is one of *many* theories and interpretations 
 
 # Tools:  
 
