@@ -47,7 +47,7 @@ _Note: Due to the nature and limited reliability of properly scaling HTML graphs
 	
 I used QTT to import the downloaded dataset and assigned the four charge stability diagrams to their respective databases. Using the included .py file to locate the input parameters for offset and conversion from the imported databases, I recreated the original figures referenced to examine in higher resolution and to get an initial overview.  
  
-In the below figures, one can see how as a constant voltage G4 increases, the geometric patterns form due to the interdot symmetry, and the three lines of the phase boundary indicate an excellent formation of these delocalized states in the second image. As this voltage increases, these boundaries become parallel as the current can flow freely, and these dots effectively form a single quantum dot. I selected the second dataset for further analysis and produced the 3d surface plot above this section to look at this hexagonal formation in more detail.  
+In the below figures, one can see how as a constant voltage G4 increases, the geometric patterns form due to the interdot symmetry, and the three lines of the phase boundary indicate an excellent formation of these delocalized states in the second image. As this constant bias is stepped up, these boundaries become parallel as the current can flow freely, and these dots effectively form a single quantum dot. I selected the second dataset for further analysis and produced the 3d surface plot above this section to look at this hexagonal formation in more detail.  
 
 {% include post-components/gallery.html
 	columns = 2
