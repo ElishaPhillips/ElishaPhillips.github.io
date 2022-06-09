@@ -18,6 +18,7 @@
       .nodeLabel('id')
       .nodeVal('value')
       .linkAutoColorBy('group')
+      .linkOpacity(0.7)
       .onNodeClick(node => {
         // Center/zoom on node
         Graph.centerAt(node.x, node.y, 1000);
