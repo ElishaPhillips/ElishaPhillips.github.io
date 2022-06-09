@@ -9,7 +9,7 @@
 <div id="graph"></div>
 
 <script>
-  fetch('../datasets/data.json').then(res => res.json()).then(data => {
+  fetch('../datasets/portland_budget.json').then(res => res.json()).then(data => {
     const elem = document.getElementById('graph');
 
     const Graph = ForceGraph()(elem)
