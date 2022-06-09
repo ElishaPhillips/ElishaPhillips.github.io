@@ -10,14 +10,15 @@
 
 <script>
   fetch('../datasets/portland_budget.json').then(res => res.json()).then(data => {
-    function scaleValue(value, from, to) {
-	    var scale = (to[1] - to[0]) / (from[1] - from[0]);
-	    var capped = Math.min(from[1], Math.max(from[0], value)) - from[0];
-	    return ~~(capped * scale + to[0]);
-    };
+    
     const elem = document.getElementById('graph');
 
     const Graph = ForceGraph()(elem)
+       function scaleValue(value, from, to) {
+	    var scale = (to[1] - to[0]) / (from[1] - from[0]);
+	    var capped = Math.min(from[1], Math.max(from[0], value)) - from[0];
+	    return ~~(capped * scale + to[0]);
+        };
       .graphData(data)
       .nodeId('id')
       .nodeLabel('id')
