@@ -15,9 +15,8 @@
     const Graph = ForceGraph()(elem)
       .graphData(data)
       .nodeId('id')
-      .nodeLabel('label')
-      .nodeVal('size')
-      .nodeAutoColorBy('color')
+      .nodeLabel('id')
+      .nodeAutoColorBy('group')
       .linkDirectionalParticles(2)
       .linkDirectionalParticleWidth(1.4)
       .onNodeClick(node => {
