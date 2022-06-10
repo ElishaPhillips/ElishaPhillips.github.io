@@ -5,7 +5,6 @@
 <script src="d3.chart.sankey.min.js"></script>
 <body>
 <div id="graph"></div>
-
 <script>
   fetch('../datasets/portland_budget.json').then(res => res.json()).then(data => {
     var chart = d3.select("#chart").append("svg").chart("Sankey");
